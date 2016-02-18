@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{301A4DE1-47DF-4073-9594-0F7C62B6277E}" SchemaVersion="70">
+	<AudioObjects>
+		<WorkUnit Name="Default Work Unit" ID="{301A4DE1-47DF-4073-9594-0F7C62B6277E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="Chamel_D&amp;B" ID="{4F260B3D-11D7-4D3C-9BE6-544F035C3751}" ShortID="827173853" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Chamel_D&amp;B" ID="{84B2ECC4-70E2-44E9-97D8-02B5AE7718C4}" ShortID="724967948">
+							<Language>SFX</Language>
+							<AudioFile>Chamel_D&amp;B.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="699814363"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Chamel_D&amp;B" ID="{84B2ECC4-70E2-44E9-97D8-02B5AE7718C4}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="Chamel_full" ID="{898CA278-ABC8-4D73-AC10-A73AE38FDB3A}" ShortID="960863143" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="Chamel_full" ID="{27A7D5BD-B164-47CB-A661-3924F9F11D58}" ShortID="536136286">
+							<Language>SFX</Language>
+							<AudioFile>Chamel_full.wav</AudioFile>
+							<ConvertedFileIDList>
+								<File ID="443969548"/>
+							</ConvertedFileIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="Chamel_full" ID="{27A7D5BD-B164-47CB-A661-3924F9F11D58}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
+	</AudioObjects>
+</WwiseDocument>

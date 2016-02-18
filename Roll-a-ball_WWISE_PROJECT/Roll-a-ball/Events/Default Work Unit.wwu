@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<WwiseDocument Type="WorkUnit" ID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" SchemaVersion="70">
+	<Events>
+		<WorkUnit Name="Default Work Unit" ID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" PersistMode="Standalone">
+			<ChildrenList>
+				<Event Name="BallHit" ID="{ADDCAF43-0B63-4BB1-9013-20D183C067F7}">
+					<ChildrenList>
+						<Action Name="Play" ID="{E6778854-8251-4355-A4B6-6154C093DD78}" ShortID="990238241" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A7F47AF4-FA7A-4724-97FD-160635CD9A26}" Global="false">
+									<ObjectRef Name="BEEP 01" ID="{D4258CB6-01BA-46AE-8924-E5914FDA8A13}" WorkUnitID="{D9329DB3-E4D7-45AA-BD40-6EB28C6C4D39}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="Pickup" ID="{F1119A0A-F9C7-40B7-8378-35FE385E69E5}">
+					<ChildrenList>
+						<Action Name="Play" ID="{01F0E365-FFBF-4144-8FF2-8A3EC876A0F8}" ShortID="1005449636" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{165A965F-6EEE-43EE-9C60-BD861129DD74}" Global="false">
+									<ObjectRef Name="Pickups" ID="{A47BB78B-43D2-4B6B-BA41-94B93F001B01}" WorkUnitID="{67219492-E3EF-4471-B00B-27FD2000C613}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM" ID="{F01CC595-C6C4-4CB1-85B2-C28E2E925EED}">
+					<ChildrenList>
+						<Action Name="Stop" ID="{5FC3FEFA-9687-405A-B1FE-1DDEAF6DF09C}" ShortID="611797943" Type="Stop" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{2FDC5962-C244-4582-8E25-AFBB15AE249E}" Global="false">
+									<ObjectRef Name="BGM" ID="{B93EDC11-C94B-47A0-A928-8D0ACDC7AECD}" WorkUnitID="{67219492-E3EF-4471-B00B-27FD2000C613}"/>
+								</Element>
+							</ElementList>
+						</Action>
+						<Action Name="Play" ID="{462AE6A7-2DC7-40F7-BB21-B0A788452BBA}" ShortID="960089238" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{C5F1B050-842D-4615-BB6A-96148E9A44C9}" Global="false">
+									<ObjectRef Name="BGM" ID="{B93EDC11-C94B-47A0-A928-8D0ACDC7AECD}" WorkUnitID="{67219492-E3EF-4471-B00B-27FD2000C613}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+				<Event Name="BGM_END" ID="{0EFC2DFB-3DC3-4CB2-A9EB-061E183DA21A}">
+					<ChildrenList>
+						<Action Name="Stop All" ID="{FDCC8947-602E-43F6-B9F4-182FAD9E585D}" ShortID="115369277" Type="Stop" Scope="All" Global="false"/>
+						<Action Name="Play" ID="{1EAD6A65-5584-4ABC-A4FA-436D9858ECDC}" ShortID="330345426" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{4778F6C6-BC8C-42EE-8728-CA690D5765CF}" Global="false">
+									<ObjectRef Name="Chamel_full" ID="{898CA278-ABC8-4D73-AC10-A73AE38FDB3A}" WorkUnitID="{301A4DE1-47DF-4073-9594-0F7C62B6277E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
+			</ChildrenList>
+		</WorkUnit>
+	</Events>
+</WwiseDocument>

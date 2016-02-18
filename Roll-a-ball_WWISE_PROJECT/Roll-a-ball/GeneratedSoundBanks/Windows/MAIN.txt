@@ -1,0 +1,23 @@
+Event	ID	Name			Wwise Object Path	Notes
+	412724365	BGM			\Default Work Unit\BGM	
+	1641317903	BGM_END			\Default Work Unit\BGM_END	
+	3978245845	Pickup			\Default Work Unit\Pickup	
+	4066630945	BallHit			\Default Work Unit\BallHit	
+
+Game Parameter	ID	Name			Wwise Object Path	Notes
+	129	MIDI note velocity			\MIDI note velocity	
+
+Modulator Envelope	ID	Name			Wwise Object Path	Notes
+	684055498	Modulator Envelope (Custom)				
+	796713149	Modulator Envelope (Custom)				
+
+Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
+	507728361	DENIED 01	Wwise Synth One		\Actor-Mixer Hierarchy\Factory Synth One\UI Sounds\DENIED 01\DENIED 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
+	553983327	BEEP 01	Wwise Synth One		\Actor-Mixer Hierarchy\Factory Synth One\UI Sounds\BEEP 01\BEEP 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
+
+In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
+	346901654	1up	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\1up_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Pickups\1up\1up		69
+	443969548	Chamel_full	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\Chamel_full_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Chamel_full\Chamel_full		1693504
+	699814363	Chamel_D&B	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\Chamel_D&B_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Chamel_D&B\Chamel_D&B		1693504
+	1062342586	coin	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\coin_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Pickups\coin\coin		33
+

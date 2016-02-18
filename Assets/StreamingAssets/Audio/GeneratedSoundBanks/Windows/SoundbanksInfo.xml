@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
+	<RootPaths>
+		<ProjectRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\</ProjectRoot>
+		<SourceFilesRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ExternalSourcesInputFile></ExternalSourcesInputFile>
+		<ExternalSourcesOutputRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+	</RootPaths>
+	<DialogueEvents/>
+	<StreamedFiles/>
+	<MediaFilesNotInAnyBank/>
+	<SoundBanks>
+		<SoundBank Id="1355168291" Language="SFX">
+			<ShortName>Init</ShortName>
+			<Path>Init.bnk</Path>
+		</SoundBank>
+		<SoundBank Id="3161908922" Language="SFX">
+			<ShortName>MAIN</ShortName>
+			<Path>MAIN.bnk</Path>
+			<IncludedEvents>
+				<Event Id="4066630945" Name="BallHit"/>
+				<Event Id="412724365" Name="BGM"/>
+				<Event Id="3978245845" Name="Pickup"/>
+			</IncludedEvents>
+			<IncludedMemoryFiles>
+				<File Id="346901654" Language="SFX">
+					<ShortName>1up.MID</ShortName>
+					<Path>SFX\1up_00000000.wem</Path>
+				</File>
+				<File Id="443969548" Language="SFX">
+					<ShortName>Chamel_full.wav</ShortName>
+					<Path>SFX\Chamel_full_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="699814363" Language="SFX">
+					<ShortName>Chamel_D&amp;B.wav</ShortName>
+					<Path>SFX\Chamel_D&amp;B_4B8CC0C5.wem</Path>
+				</File>
+				<File Id="1062342586" Language="SFX">
+					<ShortName>coin.MID</ShortName>
+					<Path>SFX\coin_00000000.wem</Path>
+				</File>
+			</IncludedMemoryFiles>
+		</SoundBank>
+	</SoundBanks>
+</SoundBanksInfo>
