@@ -55,6 +55,17 @@
 						</Action>
 					</ChildrenList>
 				</Event>
+				<Event Name="Laughing" ID="{46C0BAA1-6C47-4A5B-8888-4D64B6E79032}">
+					<ChildrenList>
+						<Action Name="Play" ID="{EF0B8C79-5C4B-4D17-99DB-D3A550A2D025}" ShortID="144925287" Type="Play" Scope="One" Global="false">
+							<ElementList>
+								<Element ID="{A7E165F8-9AD7-4917-82A6-46FCBF744C6F}" Global="false">
+									<ObjectRef Name="34_wav_pu" ID="{CB937D39-FFDA-4118-ACDC-4A643024D4CB}" WorkUnitID="{301A4DE1-47DF-4073-9594-0F7C62B6277E}"/>
+								</Element>
+							</ElementList>
+						</Action>
+					</ChildrenList>
+				</Event>
 			</ChildrenList>
 		</WorkUnit>
 	</Events>

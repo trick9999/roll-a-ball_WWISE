@@ -8,6 +8,7 @@
 						<ObjectRef Name="Pickup" ID="{F1119A0A-F9C7-40B7-8378-35FE385E69E5}" WorkUnitID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BallHit" ID="{ADDCAF43-0B63-4BB1-9013-20D183C067F7}" WorkUnitID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BGM" ID="{F01CC595-C6C4-4CB1-85B2-C28E2E925EED}" WorkUnitID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" Filter="7" Origin="Manual"/>
+						<ObjectRef Name="Laughing" ID="{46C0BAA1-6C47-4A5B-8888-4D64B6E79032}" WorkUnitID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" Filter="7" Origin="Manual"/>
 						<ObjectRef Name="BGM_END" ID="{0EFC2DFB-3DC3-4CB2-A9EB-061E183DA21A}" WorkUnitID="{7929466C-1F6C-4F0D-9C70-E2752431C60E}" Filter="7" Origin="Manual"/>
 					</ObjectInclusionList>
 					<ObjectExclusionList/>

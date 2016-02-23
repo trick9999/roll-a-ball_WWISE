@@ -1,5 +1,41 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ValidationCache Version="1" SchemaVersion="70">
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3163284545" DateHigh="30502468"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3162764515" DateHigh="30502468"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Attenuations\Default Work Unit.wwu" DateLow="2205503287" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Control Surface Sessions\Default Work Unit.wwu" DateLow="2205313277" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Conversion Settings\Default Work Unit.wwu" DateLow="2205353279" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Conversion Settings\Factory Conversion Settings.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Dynamic Dialogue\Default Work Unit.wwu" DateLow="2205473286" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Default Work Unit.wwu" DateLow="2205723300" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory Auro Headphone.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory Effects.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Box Modeler.wwu" DateLow="2676945664" DateHigh="30450616"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Delay.wwu" DateLow="3128936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Dynamics.wwu" DateLow="3128936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Filters.wwu" DateLow="3128936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Hybrid Reverb Effects.wwu" DateLow="3128936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Multiband Distortion.wwu" DateLow="3128936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory iZotope Singleband Distortion.wwu" DateLow="3128936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Effects\Factory McDSP Effects.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Events\Default Work Unit.wwu" DateLow="3765728485" DateHigh="30502450"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Game Parameters\Default Work Unit.wwu" DateLow="2205763302" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Game Parameters\Factory SoundSeed Air Game Syncs.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Interactive Music Hierarchy\Default Work Unit.wwu" DateLow="3399164213" DateHigh="30501271"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Master-Mixer Hierarchy\Default Work Unit.wwu" DateLow="2206043318" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Mixing Sessions\Default Work Unit.wwu" DateLow="2205433283" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Modulators\Default Work Unit.wwu" DateLow="2205393281" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Presets\Default Work Unit.wwu" DateLow="2205653296" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Queries\Default Work Unit.wwu" DateLow="2205623294" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Queries\Factory Queries.wwu" DateLow="3168936192" DateHigh="30449148"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Roll-a-ball.SEC.wsettings" DateLow="3180565533" DateHigh="30502468"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Roll-a-ball.wproj" DateLow="830287454" DateHigh="30501277"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\SoundBanks\Default Work Unit.wwu" DateLow="4256126534" DateHigh="30502450"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Soundcaster Sessions\Default Work Unit.wwu" DateLow="2205683298" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\States\Default Work Unit.wwu" DateLow="2205873309" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Switches\Default Work Unit.wwu" DateLow="2205993315" DateHigh="30501137"/>
+	<ValidationCacheItem File="D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Triggers\Default Work Unit.wwu" DateLow="2205543290" DateHigh="30501137"/>
 	<ValidationCacheItem File="D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Actor-Mixer Hierarchy\Default Work Unit.wwu" DateLow="3398104152" DateHigh="30501271"/>
 	<ValidationCacheItem File="D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Actor-Mixer Hierarchy\Factory SoundSeed Air Objects.wwu" DateLow="3168936192" DateHigh="30449148"/>
 	<ValidationCacheItem File="D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\Actor-Mixer Hierarchy\Factory Synth One.wwu" DateLow="3398934200" DateHigh="30501271"/>

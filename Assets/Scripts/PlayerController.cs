@@ -27,7 +27,7 @@ public class PlayerController : MonoBehaviour
 		if (Input.GetKeyDown (KeyCode.Space))
 		{
 			//winText.text = "JUMP";
-			moveNormal = 10.0f;
+			moveNormal = 9.0f;
 		}
 		
 		Vector3 movement = new Vector3(moveHorizontal, moveNormal, moveVertical);
@@ -52,7 +52,7 @@ public class PlayerController : MonoBehaviour
 
 	void OnCollisionEnter(Collision other)
 	{
-		if (other.gameObject.tag == "Wall") {
+		if (other.gameObject.tag == "Wall" && count < numberOfGameObjects) {
 			Color c = other.gameObject.GetComponent<Renderer> ().material.color;
 
 			if (c.Equals(Color.white)) {

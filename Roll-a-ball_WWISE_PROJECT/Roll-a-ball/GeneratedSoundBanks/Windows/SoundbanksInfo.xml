@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <SoundBanksInfo Platform="Windows" BasePlatform="Windows" SchemaVersion="10" SoundbankVersion="113">
 	<RootPaths>
-		<ProjectRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\</ProjectRoot>
-		<SourceFilesRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\</SourceFilesRoot>
-		<SoundBanksRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\GeneratedSoundBanks\Windows\</SoundBanksRoot>
+		<ProjectRoot>D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\</ProjectRoot>
+		<SourceFilesRoot>D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\</SourceFilesRoot>
+		<SoundBanksRoot>D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\GeneratedSoundBanks\Windows\</SoundBanksRoot>
 		<ExternalSourcesInputFile></ExternalSourcesInputFile>
-		<ExternalSourcesOutputRoot>D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
+		<ExternalSourcesOutputRoot>D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\GeneratedSoundBanks\Windows\</ExternalSourcesOutputRoot>
 	</RootPaths>
 	<DialogueEvents/>
 	<StreamedFiles/>
@@ -22,9 +22,14 @@
 				<Event Id="4066630945" Name="BallHit"/>
 				<Event Id="412724365" Name="BGM"/>
 				<Event Id="1641317903" Name="BGM_END"/>
+				<Event Id="1277638080" Name="Laughing" MaxAttenuation="5.000000"/>
 				<Event Id="3978245845" Name="Pickup"/>
 			</IncludedEvents>
 			<IncludedMemoryFiles>
+				<File Id="242154604" Language="SFX">
+					<ShortName>34.wav_pu.wav</ShortName>
+					<Path>SFX\34.wav_pu_4B8CC0C5.wem</Path>
+				</File>
 				<File Id="346901654" Language="SFX">
 					<ShortName>1up.MID</ShortName>
 					<Path>SFX\1up_00000000.wem</Path>

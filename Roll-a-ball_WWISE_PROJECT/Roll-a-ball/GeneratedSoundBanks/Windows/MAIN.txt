@@ -1,5 +1,6 @@
 Event	ID	Name			Wwise Object Path	Notes
 	412724365	BGM			\Default Work Unit\BGM	
+	1277638080	Laughing			\Default Work Unit\Laughing	
 	1641317903	BGM_END			\Default Work Unit\BGM_END	
 	3978245845	Pickup			\Default Work Unit\Pickup	
 	4066630945	BallHit			\Default Work Unit\BallHit	
@@ -16,8 +17,9 @@ Source plug-ins	ID	Name	Type		Wwise Object Path	Notes
 	553983327	BEEP 01	Wwise Synth One		\Actor-Mixer Hierarchy\Factory Synth One\UI Sounds\BEEP 01\BEEP 01	Audiokinetic Inc. All rights reserved. Content provided by Vincent Gagnon © 2014 Vincent Gagnon
 
 In Memory Audio	ID	Name	Audio source file		Wwise Object Path	Notes	Data Size
-	346901654	1up	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\1up_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Pickups\1up\1up		69
-	443969548	Chamel_full	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\Chamel_full_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Chamel_full\Chamel_full		1693504
-	699814363	Chamel_D&B	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\Chamel_D&B_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Chamel_D&B\Chamel_D&B		1693504
-	1062342586	coin	D:\unity\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\coin_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Pickups\coin\coin		33
+	242154604	34_wav_pu	D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\34.wav_pu_4B8CC0C5.wem		\Actor-Mixer Hierarchy\Default Work Unit\34_wav_pu		73792
+	346901654	1up	D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\1up_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Pickups\1up\1up		69
+	443969548	Chamel_full	D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\Chamel_full_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Chamel_full\Chamel_full		1693504
+	699814363	Chamel_D&B	D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\Chamel_D&B_4B8CC0C5.wem		\Interactive Music Hierarchy\Default Work Unit\BGM\Chamel_D&B\Chamel_D&B		1693504
+	1062342586	coin	D:\Git\Roll-a-Ball_WWISE\Roll-a-ball_WWISE_PROJECT\Roll-a-ball\.cache\Windows\SFX\coin_00000000.wem		\Interactive Music Hierarchy\Default Work Unit\Pickups\coin\coin		33
 

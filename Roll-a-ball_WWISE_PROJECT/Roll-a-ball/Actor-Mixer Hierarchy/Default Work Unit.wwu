@@ -53,6 +53,245 @@
 						<ActiveSource Name="Chamel_full" ID="{27A7D5BD-B164-47CB-A661-3924F9F11D58}" Platform="Linked"/>
 					</ActiveSourceList>
 				</Sound>
+				<Sound Name="34_wav_pd" ID="{C3075965-4126-4EE9-9423-1397616A0ED6}" ShortID="555892669" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="34_wav_pd" ID="{2B20C2E5-2045-478B-A6BE-E682CFB22CAC}" ShortID="649038058">
+							<Language>SFX</Language>
+							<AudioFile>34.wav_pd.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="34_wav_pd" ID="{2B20C2E5-2045-478B-A6BE-E682CFB22CAC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="34_wav_pu" ID="{CB937D39-FFDA-4118-ACDC-4A643024D4CB}" ShortID="377557969" Type="SoundFX">
+					<PropertyList>
+						<Property Name="IsLoopingEnabled" Type="bool" Value="True"/>
+						<Property Name="Lowpass" Type="int16">
+							<ValueList>
+								<Value>36</Value>
+							</ValueList>
+						</Property>
+						<Property Name="PositioningType" Type="int16" Value="1"/>
+						<Property Name="Volume" Type="Real64">
+							<ValueList>
+								<Value>-17</Value>
+							</ValueList>
+						</Property>
+					</PropertyList>
+					<ReferenceList>
+						<Reference Name="Attenuation">
+							<Custom>
+								<Attenuation Name="Attenuation (Custom)" ID="{CF6B0058-4527-406A-97FB-957546DD124A}" ShortID="439973796">
+									<PropertyList>
+										<Property Name="RadiusMax" Type="Real64" Value="5"/>
+									</PropertyList>
+									<CurveUsageInfoList>
+										<VolumeDryUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="Custom">
+												<Curve Name="VolumeDry" ID="{E93B7568-818E-4FCE-BED5-BE47052A96B1}">
+													<PropertyList>
+														<Property Name="Flags" Type="int32" Value="3"/>
+													</PropertyList>
+													<PointList>
+														<Point>
+															<XPos>0</XPos>
+															<YPos>0</YPos>
+															<Flags>5</Flags>
+														</Point>
+														<Point>
+															<XPos>5</XPos>
+															<YPos>-200</YPos>
+															<Flags>37</Flags>
+														</Point>
+													</PointList>
+												</Curve>
+											</CurveUsageInfo>
+										</VolumeDryUsage>
+										<VolumeWetGameUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetGameUsage>
+										<VolumeWetUserUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="UseVolumeDry"/>
+										</VolumeWetUserUsage>
+										<LowPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</LowPassFilterUsage>
+										<HighPassFilterUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</HighPassFilterUsage>
+										<SpreadUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</SpreadUsage>
+										<FocusUsage>
+											<CurveUsageInfo Platform="Linked" CurveToUse="None"/>
+										</FocusUsage>
+									</CurveUsageInfoList>
+								</Attenuation>
+							</Custom>
+						</Reference>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="34_wav_pu" ID="{7AAEE580-B4CB-4841-9B06-3EE0E0DE0A7F}" ShortID="242154604">
+							<Language>SFX</Language>
+							<AudioFile>34.wav_pu.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="34_wav_pu" ID="{7AAEE580-B4CB-4841-9B06-3EE0E0DE0A7F}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="33_wav_pu" ID="{CF7BE7E1-79BB-4E7E-984D-57DC670D50A9}" ShortID="813348594" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="33_wav_pu" ID="{833247CF-0014-4CC6-A7B7-DBA7EC571AB9}" ShortID="995415029">
+							<Language>SFX</Language>
+							<AudioFile>33.wav_pu.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="33_wav_pu" ID="{833247CF-0014-4CC6-A7B7-DBA7EC571AB9}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="31_wav_pu" ID="{F00EFEF5-CDE1-43BF-98AC-605EA2A13B12}" ShortID="216861453" Type="SoundFX">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="31_wav_pu" ID="{964B30D8-1150-484F-9C4F-791687D2D973}" ShortID="726949023">
+							<Language>SFX</Language>
+							<AudioFile>31.wav_pu.wav</AudioFile>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="31_wav_pu" ID="{964B30D8-1150-484F-9C4F-791687D2D973}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+				<Sound Name="DENIED 01" ID="{FE101913-86AF-480E-BB65-C9418AA2C572}" ShortID="271107481" Type="SoundFX">
+					<Comment>Audiokinetic Inc. All rights reserved.
+Content provided by Vincent Gagnon
+© 2014 Vincent Gagnon</Comment>
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{DAEA6AF4-1DC1-48F8-8B96-F6B4C9FC8383}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{79A5E9F2-AA74-4686-87FA-834CD2619289}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<SourcePlugin Name="DENIED 01" ID="{C326D811-5CF9-462B-9B47-99C104D08DF0}" ShortID="808126046" PluginName="Wwise Synth One" CompanyID="0" PluginID="148">
+							<Comment>Audiokinetic Inc. All rights reserved.
+Content provided by Vincent Gagnon
+© 2014 Vincent Gagnon</Comment>
+							<PropertyList>
+								<Property Name="BaseFrequency" Type="Real32" Value="880"/>
+								<Property Name="FmAmount" Type="Real32" Value="74.7"/>
+								<Property Name="FrequencyMode" Type="int32" Value="1"/>
+								<Property Name="Osc1Level" Type="Real32" Value="-0.5"/>
+								<Property Name="Osc1Pwm" Type="Real32" Value="72.1"/>
+								<Property Name="Osc1Transpose" Type="int32" Value="38"/>
+								<Property Name="Osc2Level" Type="Real32" Value="0"/>
+								<Property Name="Osc2Transpose" Type="int32" Value="2"/>
+								<Property Name="OutputLevel" Type="Real32" Value="-21">
+									<RTPCList>
+										<RTPC Name="" ID="{DCF8B0F0-5256-4B09-ADC3-0CA28938CD7F}" ShortID="945238534">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<ObjectRef Name="MIDI note velocity" ID="{B618CC3D-04FA-4149-A36B-37B8A1F2B642}"/>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{6F5A1814-912E-4A64-A554-2594B8459072}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>-20</YPos>
+														<Flags>5</Flags>
+													</Point>
+													<Point>
+														<XPos>127</XPos>
+														<YPos>0</YPos>
+														<Flags>37</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+										<RTPC Name="" ID="{DF5289FF-A790-400A-9552-A6FB45EADF64}" ShortID="23214898">
+											<ReferenceList>
+												<Reference Name="ControlInput">
+													<Custom CreatedFrom="{37063F1C-9F2B-427B-8A1B-731B6302F270}">
+														<ModulatorEnvelope Name="Modulator Envelope (Custom)" ID="{61611AD2-62F1-4877-942F-3E0B528337F9}" ShortID="620363399">
+															<PropertyList>
+																<Property Name="EnvelopeAttackTime" Type="Real64" Value="0"/>
+																<Property Name="EnvelopeAutoRelease" Type="bool" Value="True"/>
+																<Property Name="EnvelopeDecayTime" Type="Real64" Value="0.042"/>
+																<Property Name="EnvelopeReleaseTime" Type="Real64" Value="0.089"/>
+																<Property Name="EnvelopeSustainLevel" Type="Real64" Value="0"/>
+															</PropertyList>
+														</ModulatorEnvelope>
+													</Custom>
+												</Reference>
+											</ReferenceList>
+											<Curve Name="" ID="{0C63B359-0D7F-44AA-84BD-21919382F8EA}">
+												<PropertyList>
+													<Property Name="Flags" Type="int32" Value="3"/>
+												</PropertyList>
+												<PointList>
+													<Point>
+														<XPos>0</XPos>
+														<YPos>7.58322</YPos>
+														<Flags>21</Flags>
+													</Point>
+													<Point>
+														<XPos>1</XPos>
+														<YPos>0</YPos>
+														<Flags>53</Flags>
+													</Point>
+												</PointList>
+											</Curve>
+										</RTPC>
+									</RTPCList>
+								</Property>
+							</PropertyList>
+							<Language>SFX</Language>
+						</SourcePlugin>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="DENIED 01" ID="{C326D811-5CF9-462B-9B47-99C104D08DF0}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
 			</ChildrenList>
 		</WorkUnit>
 	</AudioObjects>
